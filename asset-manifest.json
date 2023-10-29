@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.dc8c9b04.css",
+    "main.js": "/my-app/static/js/main.1c6540be.js",
+    "static/media/product-1.jpeg": "/my-app/static/media/product-1.65a2826a0ca87c5d6aac.jpeg",
+    "static/media/product-6.jpeg": "/my-app/static/media/product-6.3abda5f36f1a6019ae85.jpeg",
+    "static/media/product-9.jpeg": "/my-app/static/media/product-9.5224aaf7256de04ed285.jpeg",
+    "static/media/product-10.jpeg": "/my-app/static/media/product-10.9728200ae27be7c4cedf.jpeg",
+    "static/media/product-5.jpeg": "/my-app/static/media/product-5.ff061ea16563e80a76ca.jpeg",
+    "static/media/product-8.jpeg": "/my-app/static/media/product-8.cb7e2a29504bd3276e72.jpeg",
+    "static/media/product-7.jpeg": "/my-app/static/media/product-7.fffa0ffd0235936f7db2.jpeg",
+    "static/media/product-2.jpeg": "/my-app/static/media/product-2.5ed3c33ad25384bc18ea.jpeg",
+    "static/media/product-4.jpeg": "/my-app/static/media/product-4.86df8fb3a729323da4ff.jpeg",
+    "static/media/product-3.jpeg": "/my-app/static/media/product-3.70fa0baee7af0051bcb8.jpeg",
+    "static/media/telegram-icon.svg": "/my-app/static/media/telegram-icon.24d175fe2229affa574a0845b7b0e125.svg",
+    "static/media/gmail-icon.svg": "/my-app/static/media/gmail-icon.7bf1a224482e8512d458c00bdc0d728a.svg",
+    "static/media/github-icon.svg": "/my-app/static/media/github-icon.97ed8e7eef60d61ca469881dd6f34511.svg",
+    "index.html": "/my-app/index.html",
+    "main.dc8c9b04.css.map": "/my-app/static/css/main.dc8c9b04.css.map",
+    "main.1c6540be.js.map": "/my-app/static/js/main.1c6540be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc8c9b04.css",
+    "static/js/main.1c6540be.js"
+  ]
+}
