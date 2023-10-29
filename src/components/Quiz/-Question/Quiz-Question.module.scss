@@ -1,0 +1,74 @@
+@import '../../../variables.scss';
+
+.QuizQuestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    
+    width: 798px;
+
+    &Title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        color: $text-main;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &List {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+
+        &Item {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+            input {
+                cursor: pointer;
+            }
+
+            label {
+                padding-left: 10px;
+
+                color: $text-main;
+                font-size: 15px;
+                font-weight: 400;
+
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 967px) {
+    .QuizQuestion {
+        width: 668px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .QuizQuestion {
+        width: 468px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .QuizQuestion {
+        width: 268px;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .QuizQuestion {
+        width: 280px;
+    }
+}

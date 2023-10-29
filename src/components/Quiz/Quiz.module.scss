@@ -1,0 +1,182 @@
+@import '../../variables.scss';
+
+.Quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+
+    width: 868px;
+
+    &Title {
+        color: $text-main;
+        font-size: 40px;
+        font-weight: 700;
+
+        &Wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 34px;
+
+            width: 100%;
+        }
+    }
+
+    &Text {
+        width: 75%;
+
+        color: $text-main;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 35px;
+
+        width: 100%;
+        min-height: 432px;
+
+        padding: 35px 35px 70px 35px;
+
+        border-radius: 10px;
+
+        background-color: $bg-light-blue-main;
+    }
+
+    &Questions {
+        &Content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 40px;
+        }
+
+        &Overlay {
+            overflow: hidden;
+            width: 798px;
+        }
+
+        &Wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: fit-content;
+
+            transition: all .25s ease-in-out;
+        }
+    }
+
+    &ButtonsWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &Button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 10px 15px;
+
+        border-radius: 5px;
+
+        font-size: 15px;
+        font-weight: 700;
+
+        cursor: pointer;
+        transition: all .15s ease-in-out;
+
+        &Disabled {
+            cursor: default;
+
+            opacity: 0.5;
+        }
+
+        &Back {
+            background-color: $text-main-sub;
+
+            color: $text-main;
+
+            &:hover {
+                background-color: $bg-light-blue-sub;
+    
+                color: $text-main-sub;
+            }
+        }
+
+        &Next, &Finish {
+            background-color: $bg-blue-main;
+
+            color: $text-main-sub;
+            
+            &:hover {
+                background-color: $bg-light-blue-sub;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 967px) {
+    .Quiz {
+        width: 768px;
+
+        &Questions {
+            &Overlay {
+                width: 668px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Quiz {
+        width: 568px;
+
+        &Questions {
+            &Overlay {
+                width: 468px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .Quiz {
+        width: 368px;
+
+        &Questions {
+            &Overlay {
+                width: 268px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .Quiz {
+
+        width: 300px;
+
+        &Questions {
+            &Overlay {
+                width: 280px;
+            }
+        }
+
+        &Content {
+            padding: 25px 10px 35px 10px;
+        }
+    }
+}
